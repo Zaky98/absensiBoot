@@ -1,0 +1,231 @@
+body {
+	margin: 0;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+/* Page */
+#page {
+	margin: 0 auto;
+	width: 910px;
+	background-color:#FFF;
+}
+
+#page-in {
+	width: 1000px;
+	min-height: 625px;
+}
+
+/* Header */
+#header {
+	width: 910px;
+	height: 120px;
+	position: relative;
+	background: blue;
+}
+
+/* Header - Info */
+#header #header-info {
+	position: absolute;
+	top: 6px;
+	left: 10px;
+}
+
+#header #header-info h1 {
+	color: #ffffff;
+	font: normal 47px "Century Gothic", Verdana;
+	padding-bottom: 1px;
+}
+
+#header #header-info h1 {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#header #header-info .description {
+	color: #ffffff;
+	font: normal 21px "Trebuchet MS", Verdana;
+}
+
+#header #header-info .logo {
+	position:relative;top:-80px;left:780px;display:block;
+}
+
+/* Main */
+#main {
+	width: 986px;
+	padding-left: 14px;
+
+}
+
+/* Main - Sidebar */
+.sidebar {
+	float: left;
+	width: 208px;
+	font: normal 13px "Trebuchet MS", Verdana;
+	color: #999;
+	background-color:#666;
+}
+
+/* Sidebar - Boxes */
+.sidebar .sidebar-box {
+	width: 208px;
+	margin-bottom: 0px;
+}
+	
+/* Sidebar - Titles */
+.sidebar h3 {
+	width: 190px;
+	height: 39px;
+	background: blue no-repeat;
+	padding-left: 18px;
+	font: bold 15px/39px "Trebuchet MS", Verdana;
+	color: #fff;
+}
+
+/* Sidebar - Menus */
+.sidebar ul {
+	margin: 0;
+	padding: 6px 6px 2px 6px;
+	list-style-type: none;
+	background: #87CEFA;
+}
+
+.sidebar ul li {
+	color: #ffffff;
+	font: normal 13px/30px "Trebuchet MS", Verdana;
+}
+
+.sidebar ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid #89ad49;
+	padding-left: 12px;
+}
+
+.sidebar ul li a:hover {
+	text-decoration: none;
+	background: #ffffff;
+	color: #336600;
+}
+
+/* Sidebar - Menus - Submenus */
+.sidebar ul li ul {
+	padding: 0;
+	background: none;
+}
+
+.sidebar ul li ul li a {
+	padding-left: 32px;
+}
+
+/* Main - Content */
+#content {
+	width: 630px;
+	padding: 0px 22px 0 24px;
+	margin-left: 215px;
+}
+
+/* Main - Content - Post */
+
+#content .post {
+	margin-bottom: 30px;
+	width: 630px;
+}
+
+/* Post - Title */
+#content .post .post-title {
+	width: 630px;
+	height: 500px auto;
+	color: #000000;
+	font: normal 13px "Trebuchet MS", Verdana;
+}
+
+#content .post .post-title a {
+	color: #336600;
+	text-decoration: underline;
+}
+
+#content .post .post-title h2 {
+	float: left;
+	width: 435px;
+	padding-left: 15px;
+	color: #666;
+	font: normal 27px/35px "Trebuchet MS", Verdana;
+}
+
+#content .post .post-title h2 a {
+	color:#666;
+	text-decoration: none;
+}
+
+#content .post .post-title h2 a:hover {
+	text-decoration: underline;
+}
+
+/* Post - Entry */
+#content .post .post-entry {
+	font: normal 12px/18px "Trebuchet MS", Verdana;
+	color: #333333;
+	width: 498px;
+	padding: 0 5px;
+}
+
+#content .post .post-entry a {
+	color: #ff6b00;
+	text-decoration: none;
+}
+
+#content .post .post-entry a:hover {
+	text-decoration: underline;
+}
+
+/* Post - Subtitle */
+#content .post h3 {
+	margin: 20px 0 10px 0;
+	color:#666;
+	font: normal 20px "Trebuchet MS", Verdana;
+}
+
+/* Footer */
+#footer {
+	width: 890px;
+	border-width: 100%;
+	border-top: 1px solid;
+	height: 10px;
+	padding: 5px 10px 10px 10px;
+	background:blue;
+	color: #ffffff;
+	font: normal 12px "Trebuchet MS", Verdana;
+	text-align: left;
+}
+
+.image {
+	background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #ddc688;
+	float: left;
+}
+
+div.message {
+	color: #fff;
+	font-weight: bold;
+	background: #666;
+	padding: 5px;
+}
